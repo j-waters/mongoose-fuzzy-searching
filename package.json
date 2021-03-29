@@ -20,7 +20,8 @@
     "test": "jest --colors --runInBand",
     "test:watch": "npm test -- --watch",
     "test:unit:watch": "npm run test:unit --watch",
-    "test:integration:watch": "npm run test:integration --watch"
+    "test:integration:watch": "npm run test:integration --watch",
+    "install": "yarn build"
   },
   "husky": {
     "hooks": {
